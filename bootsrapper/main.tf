@@ -3,8 +3,7 @@ provider "azuread" {
 }
 
 provider "azurerm" {
-  version = "~> 1.42"
- 
+  version = "~> 1.41"
 }
   
 provider "random" {
