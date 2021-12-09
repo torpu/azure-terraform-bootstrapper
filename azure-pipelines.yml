@@ -28,7 +28,7 @@ stages:
           -backend-config="access_key=$(accesskey)"
 
       workingDirectory: ./env
-      displayName: 'Terraform init'
+      displayName: 'Terraform init --upgrade'
 
     - script: terraform apply -auto-approve
       workingDirectory: ./env
