@@ -1,7 +1,7 @@
 provider "azuread" {
   version = "~> 2.12.0"
-
 }
+
 provider "azurerm" {
  features{} 
   version = "~> 2.88.1"
