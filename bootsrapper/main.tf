@@ -3,8 +3,9 @@ provider "azuread" {
 }
 
 provider "azurerm" {
+ features{} 
   version = "~> 2.46.0"
-  features{}
+
 
 }
 
@@ -13,7 +14,7 @@ provider "random" {
 }
 
 provider "external" {
-  version = "~> 1.2"
+  version = "~> 2.0"
 }
 
 
