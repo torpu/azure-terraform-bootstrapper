@@ -11,7 +11,7 @@ stages:
   jobs:
   - job: TransformConfiguration
     pool:      
-      vmImage: 'Ubuntu-16.04'
+      vmImage: 'Ubuntu-18.04'
     steps:
     - task: qetza.replacetokens.replacetokens-task.replacetokens@3
       displayName: 'Replace tokens in **/*.tfvars'
