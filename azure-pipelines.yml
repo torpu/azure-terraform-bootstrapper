@@ -6,7 +6,7 @@ stages:
     - name: tfstatename
       value: 'bootstrapped.tfstate'
     - name: location
-      value: 'westeurope'
+      value: 'uksouth'
 
   jobs:
   - job: TransformConfiguration
